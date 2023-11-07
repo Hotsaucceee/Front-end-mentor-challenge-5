@@ -1,0 +1,49 @@
+@media (max-width: 700px) {
+  #main-section {
+    height: auto;
+    flex-direction: column;
+    padding: 5rem 2rem;
+  }
+  #main-section .container {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  #main-section .container div button {
+    background-color: #fff;
+  }
+  #main-section .container .div-1 {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 8px;
+  }
+  #main-section .container .div-1 button {
+    color: hsl(31, 77%, 52%);
+  }
+  #main-section .container .div-2 button {
+    color: hsl(184, 100%, 22%);
+  }
+  #main-section .container .div-3 {
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 0;
+  }
+  #main-section .container .div-3 button {
+    color: hsl(179, 100%, 13%);
+  }
+}
+@media (min-width: 700px) and (max-width: 1300px) {
+  #main-section .container {
+    width: 90%;
+    height: 60%;
+  }
+  #main-section .container div {
+    padding: 1.5rem;
+  }
+  #main-section .container div img, #main-section .container div h2 {
+    margin-bottom: 1.5rem;
+  }
+  #main-section .container div p {
+    margin-bottom: 2.8rem;
+  }
+  #main-section .container div button {
+    width: 80%;
+  }
+}

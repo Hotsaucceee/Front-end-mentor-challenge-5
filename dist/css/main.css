@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+}
+
+#main-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+#main-section h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2.2rem;
+}
+#main-section .container {
+  width: 62%;
+  height: 62%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#main-section .container div {
+  padding: 3rem;
+}
+#main-section .container div img, #main-section .container div h2 {
+  margin-bottom: 2rem;
+}
+#main-section .container div p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  margin-bottom: 5rem;
+  line-height: 1.7;
+  word-spacing: 0.1rem;
+  letter-spacing: 0.01rem;
+}
+#main-section .container div button {
+  border: 2px solid hsl(0, 0%, 95%);
+  padding: 1rem;
+  outline: none;
+  background-color: inherit;
+  border-radius: 3rem;
+  width: 63%;
+  color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+}
+#main-section .container div button:hover {
+  transform: scale(1.1);
+}
+#main-section .container .div-1 {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+#main-section .container .div-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+#main-section .container .div-3 {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
